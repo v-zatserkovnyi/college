@@ -1,0 +1,13 @@
+INSERT INTO college.student (student_id, student_name, date_of_birth) VALUES (1, 'John Smith', '2000-11-12');
+INSERT INTO college.student (student_id, student_name, date_of_birth) VALUES (2, 'Alice', '1999-05-10');
+INSERT INTO college.student (student_id, student_name, date_of_birth) VALUES (3, 'Jack Pot', '1998-07-22');
+INSERT INTO college.class (class_id, class_name, semester) VALUES (1, 'Math', 'Fall 2023');
+INSERT INTO college.class (class_id, class_name, semester) VALUES (2, 'Algorithm', 'Fall 2023');
+INSERT INTO college.class (class_id, class_name, semester) VALUES (3, 'Art', 'Spring 2023');
+INSERT INTO college.class (class_id, class_name, semester) VALUES (4, 'Algorithm', 'Spring 2023');
+INSERT INTO college.registration (registration_id, student_id, class_id, registration_date) VALUES (1, 1, 1, '2024-05-28');
+INSERT INTO college.registration (registration_id, student_id, class_id, registration_date) VALUES (2, 2, 1, '2024-05-27');
+INSERT INTO college.registration (registration_id, student_id, class_id, registration_date) VALUES (3, 3, 2, '2024-05-26');
+INSERT INTO college.registration (registration_id, student_id, class_id, registration_date) VALUES (4, 2, 2, '2024-05-25');
+INSERT INTO college.registration (registration_id, student_id, class_id, registration_date) VALUES (5, 2, 3, '2024-05-24');
+INSERT INTO college.registration (registration_id, student_id, class_id, registration_date) VALUES (6, 1, 4, '2024-05-23');
